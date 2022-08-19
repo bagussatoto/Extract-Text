@@ -21,6 +21,6 @@ I am implementing a Tesseract JS library in my project.
 - <code>cd Extract-Text</code>
 - <code>npm install</code>
 - <code>npm run dev</code>
-- 
+
 ### Demo 
 - [Extract Text](https://extract-image-to-text.vercel.app/)
