@@ -1,6 +1,6 @@
 <h1 align="center">Extract Text</h1>
 
-<img width="1000" alt="orc" src="https://user-images.githubusercontent.com/87259393/185617046-f1de866b-d5fc-42cf-88b8-127e58390ec9.png">
+<img width="1009" alt="orc" src="https://user-images.githubusercontent.com/87259393/185617654-f8c62f65-e614-4d80-8af2-3b46cb29dd90.png">
 
 
 ### About
