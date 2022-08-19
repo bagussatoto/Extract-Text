@@ -12,7 +12,7 @@ I am implementing a Tesseract JS library in my project.
 - Vue Js 3
 - SCSS
 - Tesseract JS
-- Termux
+- Terminal
 - Vite Js
 - Acode code editor
 
