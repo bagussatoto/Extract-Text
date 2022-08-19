@@ -23,4 +23,4 @@ I am implementing a Tesseract JS library in my project.
 - <code>npm run dev</code>
 - 
 ### Demo 
-- [OCR TOOL](https://ocr-project.vercel.app/)
+- [Extract Text](https://extract-image-to-text.vercel.app/)
