@@ -1,9 +1,9 @@
 <template>
-   <OCR></OCR>
+   <Extract></Extract>
 </template>
 
 <script setup>
-   import OCR from './components/OCR.vue'
+   import OCR from './components/Extract.vue'
 </script>
 <style>
    
