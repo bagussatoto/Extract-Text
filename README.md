@@ -1,7 +1,7 @@
-<h3 align="center">OCR TOOL</h3>
-<p align="center">Extract Text From an Image</p>
+<h1 align="center">Extract Text</h1>
 
-<img src="./src/assets/ocr-tool.png" width="100%" alt="">
+<img width="1000" alt="orc" src="https://user-images.githubusercontent.com/87259393/185617046-f1de866b-d5fc-42cf-88b8-127e58390ec9.png">
+
 
 ### About
 this is my project in building a simple tool to extract text from an image. 
