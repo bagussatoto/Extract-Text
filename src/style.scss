@@ -1,0 +1,136 @@
+@mixin buttons {
+   padding: .75rem 2.75rem;
+   border-radius: 13px;
+   font-size: 1.2rem;
+   color: white;
+   font-weight: 500;
+   box-shadow: 0 3px 12px rgba(black, .25);
+   transition: .3s ease-in-out;
+   display: block;
+   width: 100%;
+   text-align: center;
+}
+
+.wrapper {
+   padding: .75rem 1rem;
+   
+   @media (min-width: 400px) {
+      width: 50vw;
+      margin: 6rem auto;
+      background: #FFFFFF;
+      border-radius: 12px;
+      padding: 3rem;
+   }
+   
+   button:disabled {
+      opacity: .65;
+   }
+   .btn-close {
+      @include buttons;
+      border: none;
+      background: #cf2f2f;
+      
+      &:active {
+         border-color: white;
+      }
+   }
+   
+   .input-wrapper {
+      padding: 2rem 3rem;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      border: .5px solid gray;
+      border-radius: 8px;
+      margin-top: 2rem;
+      background: white;
+      
+      p {
+         display: inline-block;
+         width: 100%;
+         font-size: 1rem;
+         text-align: center;
+      }
+      
+      input[type=file] {
+         display: none;
+      }
+      
+      .custom-file-input {
+         background: #1dbae2;
+         @include buttons;
+         
+         &:active {
+            box-shadow: 3px 3px 8px rgba(black, .25) inset;
+            border: .5px solid navy;
+         }
+      }
+   }
+   
+   .preview-wrapper {
+      width: 100%;
+      flex-wrap: wrap;
+      display: flex;
+      justify-content: center;
+      margin-top: 2rem;
+      
+      .preview {
+         width: 100%;
+         text-align: center;
+         
+         img {
+            border-radius: 12px;
+         }
+      }
+      
+      .btn-action {
+         background: #17d12a;
+         border: none;
+         margin-top: 1rem;
+         @include buttons;
+         
+         &:active {
+            box-shadow: 3px 3px 8px rgba(black, .25) inset;
+            font-size: 1.35rem;
+            letter-spacing: 1px;
+         }
+      }
+   }
+   
+   .result-wrapper {
+      padding: 1rem 3rem;
+      text-align: center;
+      margin-top: 3rem;
+      
+      .result {
+         display: inline-block;
+         width: 100%;
+         margin: auto;
+         font-size: 1.25rem;
+         line-height: 150%;
+         text-overflow: break-all;
+         overflow: scroll;
+         padding: 1rem 0;
+      }
+   }
+   
+   .progress-wrapper {
+      padding: .5rem;
+      text-align: center;
+      width: 100;
+      
+      .progress {
+         font-size: 1rem;
+      }
+   }
+}
+
+footer {
+   margin-top: 3rem;
+   text-align: center;
+   font-size: 1rem;
+   
+   a {
+      text-decoration: none;
+   }
+}
