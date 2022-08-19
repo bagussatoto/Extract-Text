@@ -1,7 +1,7 @@
 <template>
    
    <section class="wrapper">
-      <h1>Extract text from image</h1>
+      <h1>Extract image to text</h1>
       <small>
          Upload your image here to extract text, this tool built using Tesseract JS
          <br />
@@ -36,7 +36,7 @@
       
    </section>
    <footer>
-      Developed by <a href="http://github.com/or-abdillh">Oka R. Abdillh</a>
+      Developed by <a href="http://github.com/bagussatoto">Bagus Budi Satoto</a>
    </footer>
 </template>
 
