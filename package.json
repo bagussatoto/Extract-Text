@@ -7,7 +7,7 @@
     "serve": "vite preview"
   },
   "dependencies": {
-    "sass": "^1.43.4",
+    "sass": "^1.54.6",
     "tesseract.js": "^2.1.5",
     "vue": "^3.2.16"
   },
