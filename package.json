@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "sass": "^1.43.4",
-    "tesseract.js": "^2.1.5",
+    "tesseract.js": "^4.0.1",
     "vue": "^3.2.16"
   },
   "devDependencies": {
